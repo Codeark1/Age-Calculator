@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub">
+        <form onsubmit="calculateAge(event)" class="form-container">
+            <h1> AGE CALCULATOR</h1>
+
+            <label for="dob">Enter Date of Birth</label>
+            <input type="date" id="dob" required>
+
+            <!-- <label for="today">Today's Date</label>
+            <input type="date" id="today" required> -->
+
+            <input type="submit" value="Calculate Age">
+
+            <div id="error"></div>
+            <div id="result"></div>
+            <div id="eligibility"></div>
+
+        </form>
+
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
